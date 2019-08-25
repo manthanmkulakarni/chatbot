@@ -1,0 +1,28 @@
+database queries
+
+
+curl -X GET "https://graph.facebook.com/v2.8/1429858270372733?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=EAALlQ2OEzrUBADOZAlGs5LuJ4NK848JZARZCe9PPEjR28Q8GEhiObY4NpwcELsbRGMSYxuvk1DRI4eYz2tVnv9rJLchfbxR96jhdbinTv3NSGBWxWvGuc3SZBZCWhqbv2ipzg2HbERtblVnWZBTGBtkHpFSEI9WPQmebpnbxAS9QZDZD"
+
+/*
+use testbot
+
+
+db.popular.remove({})
+db.latest.remove({})
+db.popular.ensureIndex({"fb_id":1},{unique: true})
+db.latest.ensureIndex({"fb_id":1},{unique: true})
+
+*/
+
+
+
+
+
+
+
+
+
+
+http://api.amarujala.com/v1/recentnews/     Recent Stories
+http://api.amarujala.com/v1/tranding-stories   most viewed 
+http://api.amarujala.com/v1/search?keywords=jaylalita
