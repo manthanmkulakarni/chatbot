@@ -1,0 +1,94 @@
+https://graph.facebook.com/v2.6/<USER_ID>?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=<PAGE_ACCESS_TOKEN>
+EAAGBkRbsQVUBACl1VKvv45VJ55DlBA9ZAV2yBgj5eCYd9L2rZAuVZCam60dTl8Sn7ZCZA91UmWJW3dHGruE2B2PHwiMN9MTW7MwJDthRXLrNAZCT4meHgykLo8FW4U8OJqLQ68YKbCU4Yva1nLTNyAajcFqPd7UvpzsLphJsin4BZAMLB4anzpA
+
+
+https://graph.facebook.com/v2.6/2571812626197010?fields=first_name,last_name,profile_pic,locale,timezone,gender&access_token=EAAIYywj57oABALxz1bnz41MHuImDHHQzK0xxHJNSRhbgMY9LdQOfVhnd7n0f73P39tfvhrwOR6njmQdKwRZCwghd5ZBTbX8tO85uyWICbEUSWUNXiHhTc6i7BLrt9tbKD3GxoRu4D3sbcO3fOlzZBK9pglAopRgyNm5yR2pnSnoAnP99mjn
+
+
+
+https://graph.facebook.com/id?fields=id&access_token=EAAIYywj57oABALxz1bnz41MHuImDHHQzK0xxHJNSRhbgMY9LdQOfVhnd7n0f73P39tfvhrwOR6njmQdKwRZCwghd5ZBTbX8tO85uyWICbEUSWUNXiHhTc6i7BLrt9tbKD3GxoRu4D3sbcO3fOlzZBK9pglAopRgyNm5yR2pnSnoAnP99mjn
+
+https://api.telegram.org/bot810450545:AAHKwXx8VhSO7O8mYrw7xSUF-v5eM_bmy7s/getMe
+
+3461526617206941
+
+
+
+
+
+
+
+"catchAll": {
+    "onReceive": ["builtin/setVariable {\"type\":\"user\",\"name\":\"response\",\"value\":\"{{event.payload.text}}\"}"],
+    "next": [
+      {
+        "condition": "user.response===\"News\"",
+        "node": "news.flow.json"
+      },
+      {
+        "condition": "user.response===\"Manage Subscription\"",
+        "node": "subscribe.flow.json"
+      },
+      {
+        "condition": "user.response===\"Start Over\"",
+        "node": "endflow.flow.json"
+      }
+
+    ]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "$schema": "../../../../assets/modules/channel-messenger/config.schema.json",
+  "enabled": true,
+  "accessToken": "EAAIYywj57oABAHVIC1SnsRzTc5A2ooHLm87Qi5t3SXZA5icDLDwEaigd7ZBsiD0lhYVZBMAHQ15hRf46upZBBC7GSHe1gRHZBA2hFAfYSOylXiPRpJZAYpAu89MgpXOZCzkX0z85ZA4hNS9GnkUdZA6IxP8VYNZB8vuDaz0b7YOu9ZBZB02CcZBDtpcEe",
+  "appSecret": "b577bcbb3192b6ed05fb5022bd8ecb92",
+  "verifyToken": "v9tsrSUb45",
+  "getStarted": "Get Started",
+  "persistentMenu": [
+    {
+      "locale": "default",
+      "composer_input_disabled": false,
+      "call_to_actions": [
+          {
+              "type": "postback",
+              "title": "News",
+              "payload": "News"
+          },
+          {
+              "type": "postback",
+              "title": "Subscribe",
+              "payload": "Subscribe"
+          },
+          {
+            "type": "postback",
+            "title": "Start Over",
+            "payload": "Start Over"
+        },
+          {
+              "type": "web_url",
+              "title": "Shop now",
+              "url": "https://www.originalcoastclothing.com/",
+              "webview_height_ratio": "full"
+          }
+      ]
+  }
+]
+}
