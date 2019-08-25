@@ -1,0 +1,24 @@
+[
+  {
+    "id": "builtin_action-button-IOwPXt",
+    "formData": {
+      "title$en": "HomePage",
+      "action$en": "Open URL",
+      "url$en": "https://www.amarujala.com/tags/website?page=1"
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:46:08.351Z",
+    "modifiedOn": "2019-06-12T12:46:29.049Z"
+  },
+  {
+    "id": "builtin_action-button-pQa7TZ",
+    "formData": {
+      "title$en": "Read More",
+      "action$en": "Open URL",
+      "url$en": "{{user.newurl}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-14T11:53:50.546Z",
+    "modifiedOn": "2019-06-14T11:53:59.947Z"
+  }
+]

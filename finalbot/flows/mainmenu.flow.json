@@ -1,0 +1,100 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "7d59012179",
+      "name": "entry",
+      "onEnter": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "newsoptions.flow.json"
+        }
+      ]
+    },
+    {
+      "id": "3882e94ae1",
+      "name": "node-f302",
+      "next": [
+        {
+          "condition": "true",
+          "node": "fetchnews.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-0Gt-O6"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "skill-9193e0",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-9193e0",
+      "flow": "skills/choice-9193e0.flow.json",
+      "next": [
+        {
+          "condition": "temp['skill-choice-ret'] == \"news\"",
+          "node": "newsoptions.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"subscription\"",
+          "node": "subscription.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"start over\"",
+          "node": "endflow.flow.json"
+        },
+        {
+          "caption": "User picked [search]",
+          "condition": "temp['skill-choice-ret'] == \"search\"",
+          "node": "node-f302"
+        },
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-115ed1",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-115ed1",
+      "flow": "skills/choice-115ed1.flow.json",
+      "next": [
+        {
+          "condition": "temp['skill-choice-ret'] == \"news\"",
+          "node": "newsoptions.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"subscription\"",
+          "node": "subscription.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"start over\"",
+          "node": "endflow.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"search\"",
+          "node": "search.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "newsoptions.flow.json"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

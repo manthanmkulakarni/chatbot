@@ -1,0 +1,120 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "1de2f907ea",
+      "name": "entry",
+      "onEnter": [
+        "getnews {}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-8871"
+        }
+      ]
+    },
+    {
+      "id": "51b28216ff",
+      "name": "node-8871",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-9ac9"
+        }
+      ],
+      "onEnter": [
+        "builtin/wait {\"delay\":\"1500\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "79ec93328f",
+      "name": "node-15c2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "incrementnewsflg {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-098f73",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-098f73",
+      "flow": "skills/choice-098f73.flow.json",
+      "next": [
+        {
+          "caption": "User picked [more]",
+          "condition": "temp['skill-choice-ret'] == \"more\"",
+          "node": "node-15c2"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"menu\"",
+          "node": "mainmenu.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "c09f3377cf",
+      "name": "node-9ac9",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-7efc"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_carousel-wLRYhw",
+        "say #!builtin_carousel-8o8ico"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d70b4d78b5",
+      "name": "node-3c8d",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-098f73"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_carousel-bgKOqm",
+        "say #!builtin_carousel-XoJoU5"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "86c6d1b009",
+      "name": "node-7efc",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-3c8d"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_carousel-SxoC0V"
+      ],
+      "onReceive": null
+    }
+  ]
+}

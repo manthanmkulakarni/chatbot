@@ -1,0 +1,218 @@
+[
+  {
+    "id": "builtin_single-choice-SEIsoR",
+    "formData": {
+      "text$en": "आप क्या करना चाहेंगे ।",
+      "choices$en": [
+        {
+          "title": "get news",
+          "value": "news"
+        },
+        {
+          "title": "webpage",
+          "value": "webpage"
+        },
+        {
+          "title": "subscribe",
+          "value": "subscribe"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:15:40.195Z",
+    "modifiedOn": "2019-07-10T04:38:32.160Z"
+  },
+  {
+    "id": "builtin_single-choice-fzlrzO",
+    "formData": {
+      "text$en": "क्या आप इसी विषय को जारी रखना चाहेंगे",
+      "choices$en": [
+        {
+          "title": " yes",
+          "value": "yesss"
+        },
+        {
+          "title": " noo",
+          "value": " noo"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:39:46.656Z",
+    "modifiedOn": "2019-07-09T16:42:54.900Z"
+  },
+  {
+    "id": "builtin_single-choice-Ex2GDT",
+    "formData": {
+      "text$en": "आप क्या करना चाहेंगे ?",
+      "choices$en": [
+        {
+          "title": "अलग विषय चुनें",
+          "value": "change"
+        },
+        {
+          "title": "चैट रीसेट करें",
+          "value": "reset"
+        },
+        {
+          "title": " जारी रहना",
+          "value": "continue"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:46:53.815Z",
+    "modifiedOn": "2019-07-09T16:44:30.903Z"
+  },
+  {
+    "id": "builtin_single-choice-nOSm7A",
+    "formData": {
+      "text$en": "आप क्या करना चाहेंगे ?",
+      "choices$en": [
+        {
+          "title": "Load More",
+          "value": "more"
+        },
+        {
+          "title": "Main menu",
+          "value": "menu"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T16:56:26.554Z",
+    "modifiedOn": "2019-07-23T10:32:56.235Z"
+  },
+  {
+    "id": "builtin_single-choice-JTQkGK",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "Top stories",
+          "value": "topstories"
+        },
+        {
+          "title": "Trending News",
+          "value": "trendingnews"
+        },
+        {
+          "title": "Indian News",
+          "value": "indiannews"
+        },
+        {
+          "title": "Manage Subscription",
+          "value": "msubscription"
+        }
+      ],
+      "typing$en": true,
+      "text$en": "आप नीचे दिए गए मैन्यू से तुरंत टॉप स्टोरीज या ट्रैंडिंग स्टोरीज प्राप्त कर सकते हैं।"
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T08:06:16.352Z",
+    "modifiedOn": "2019-07-12T09:05:16.076Z"
+  },
+  {
+    "id": "builtin_single-choice-6Su5h1",
+    "formData": {
+      "text$en": "आप क्या पढ़ना चाहेंगे?",
+      "choices$en": [
+        {
+          "title": "Top Stories",
+          "value": "topstories"
+        },
+        {
+          "title": "Trending",
+          "value": "trending"
+        },
+        {
+          "title": "Indian news",
+          "value": "indiannews"
+        },
+        {
+          "title": "Entertainment",
+          "value": "entertainment"
+        },
+        {
+          "title": "Cricket",
+          "value": "cricket"
+        },
+        {
+          "title": "Jobs",
+          "value": "jobs"
+        },
+        {
+          "title": "Astrology",
+          "value": "astrology"
+        },
+        {
+          "title": "Lifestyle",
+          "value": "lifestyle"
+        },
+        {
+          "title": "Technology",
+          "value": "technology"
+        },
+        {
+          "title": "Automobiles",
+          "value": "automobiles"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T08:30:21.046Z",
+    "modifiedOn": "2019-07-23T10:28:14.237Z"
+  },
+  {
+    "id": "builtin_single-choice-MGVjvy",
+    "formData": {
+      "text$en": "आप क्या करना चाहेंगे ?",
+      "choices$en": [
+        {
+          "title": "Subscribe",
+          "value": "subscribe"
+        },
+        {
+          "title": "Unsubscribe",
+          "value": "unsubscribe"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T08:48:37.865Z",
+    "modifiedOn": "2019-07-12T08:48:56.257Z"
+  },
+  {
+    "id": "builtin_single-choice-3ET815",
+    "formData": {
+      "text$en": "आप अभी क्या करना चाहेंगे?",
+      "choices$en": [
+        {
+          "title": "News",
+          "value": "news"
+        },
+        {
+          "title": "Manage subscription",
+          "value": "subscription"
+        },
+        {
+          "title": "Start over",
+          "value": "start over"
+        },
+        {
+          "title": "Search",
+          "value": "search"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-23T08:54:47.070Z",
+    "modifiedOn": "2019-07-23T15:17:44.062Z"
+  }
+]

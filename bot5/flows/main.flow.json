@@ -1,0 +1,36 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-e546"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-PVIniL",
+        "say #!builtin_text-WAfa5w"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "a3336beea4",
+      "name": "node-e546",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-XcXxyU"
+      ],
+      "onReceive": null
+    }
+  ]
+}

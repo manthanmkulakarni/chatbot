@@ -1,0 +1,99 @@
+[
+  {
+    "id": "builtin_carousel-1b5lDT",
+    "formData": {
+      "items$en": [
+        {
+          "title": "Visit our home page",
+          "image": "/api/v1/bots/bot4/media/66gwjhlvqwmdi6bmeeqe-Amar_Ujala_cover_photo.jpg"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:44:09.088Z",
+    "modifiedOn": "2019-06-12T12:46:21.996Z"
+  },
+  {
+    "id": "builtin_carousel-wZ5_Fi",
+    "formData": {
+      "items$en": [
+        {
+          "title": "{{user.newsheadlines1}}",
+          "subtitle": "{{user.newssynopsys1}}",
+          "actions": [
+            {
+              "title": "Read story",
+              "action": "Open URL",
+              "url": "{{user.newsurl1}}"
+            }
+          ]
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-14T10:51:02.067Z",
+    "modifiedOn": "2019-07-09T07:03:15.333Z"
+  },
+  {
+    "id": "builtin_carousel-WktQl-",
+    "formData": {
+      "items$en": [
+        {
+          "title": "{{user.newsheadlines2}}",
+          "subtitle": "{{user.newssynopsys2}}",
+          "actions": [
+            {
+              "title": "Read story",
+              "action": "Open URL",
+              "url": "{{user.newsurl2}}"
+            }
+          ]
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-14T10:51:50.327Z",
+    "modifiedOn": "2019-07-09T07:03:19.459Z"
+  },
+  {
+    "id": "builtin_carousel-FhbOWg",
+    "formData": {
+      "items$en": [
+        {
+          "title": "{{user.newsheadlines3}}",
+          "subtitle": "{{user.newssynopsys3}}",
+          "actions": [
+            {
+              "title": "Read More",
+              "action": "Open URL",
+              "url": "{{user.newsurl3}}"
+            }
+          ]
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-14T10:52:19.014Z",
+    "modifiedOn": "2019-06-14T11:54:46.119Z"
+  },
+  {
+    "id": "builtin_carousel-eG5lZy",
+    "formData": {
+      "items$en": [
+        {
+          "title": "test",
+          "subtitle": "test",
+          "image": "/api/v1/bots/bot4/media/myxj96hiss22swasopwg-img1.jpeg"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-14T11:52:36.323Z",
+    "modifiedOn": "2019-06-14T11:52:36.323Z"
+  }
+]

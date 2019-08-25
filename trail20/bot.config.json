@@ -1,0 +1,45 @@
+{
+  "$schema": "../../bot.config.schema.json",
+  "description": "Empty bot",
+  "active": true,
+  "version": "1.0.0",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_text",
+      "builtin_single-choice",
+      "builtin_image",
+      "builtin_carousel",
+      "builtin_card"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "id": "trail20",
+  "name": "trail2.0",
+  "category": null,
+  "disabled": false,
+  "private": false,
+  "details": {
+    "avatarUrl": "",
+    "coverPictureUrl": ""
+  },
+  "locked": false,
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_by": "system",
+      "promoted_on": "2019-06-12T11:16:08.559Z"
+    }
+  },
+  "defaultLanguage": "en",
+  "languages": []
+}

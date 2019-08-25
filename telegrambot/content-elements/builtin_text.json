@@ -1,0 +1,242 @@
+[
+  {
+    "id": "builtin_text-KABszi",
+    "formData": {
+      "text$en": "अमर उजाला में आपका स्वागत है।\n",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:12:28.485Z",
+    "modifiedOn": "2019-08-12T12:38:17.617Z"
+  },
+  {
+    "id": "builtin_text-WoR65G",
+    "formData": {
+      "text$en": "अमर उजाला में आपका स्वागत है।\n",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:12:40.196Z",
+    "modifiedOn": "2019-07-09T15:12:40.196Z"
+  },
+  {
+    "id": "builtin_text-O4TtHL",
+    "formData": {
+      "text$en": "लेटेस्ट खबरें पाने के लिए अपना पसंदीदा टॉपिक या कीवर्ड टाइप करें, जैसे - \"cricket\", \"astrology\", \"bollywood\", \"entertainment\", \"lifestyle\", \"technology\" |",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:17:53.424Z",
+    "modifiedOn": "2019-07-09T15:17:53.424Z"
+  },
+  {
+    "id": "builtin_text-vpbGXv",
+    "formData": {
+      "text$en": "या, इन कीवर्ड्स से तुरंत ट्रेंडिंग खबरें पाएं - \"Top Stories\", \"Trending\", \"Latest\" |",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:18:14.596Z",
+    "modifiedOn": "2019-07-09T15:18:14.596Z"
+  },
+  {
+    "id": "builtin_text-QStBzU",
+    "formData": {
+      "text$en": "news\n1 {{user.newsheadlines1}}\n2 {{user.newsheadlines2}}",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:25:22.793Z",
+    "modifiedOn": "2019-07-09T15:25:22.793Z"
+  },
+  {
+    "id": "builtin_text-Jnxr9g",
+    "formData": {
+      "text$en": "आप अभी क्या करना चाहेंगे?",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:43:08.342Z",
+    "modifiedOn": "2019-08-12T13:30:15.754Z"
+  },
+  {
+    "id": "builtin_text-Bls1Bh",
+    "formData": {
+      "text$en": "\nअमर उजाला हम हमेशा अपने दर्शकों को सर्वश्रेष्ठ अनुभव देने के लिए समर्पित हैं। कृपया अपनी प्रतिक्रिया साझा करें कि हम आपके अनुभव को कैसे बेहतर बना सकते हैं।",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:50:55.987Z",
+    "modifiedOn": "2019-07-09T15:50:55.987Z"
+  },
+  {
+    "id": "builtin_text-_4svla",
+    "formData": {
+      "text$en": "your review {{user.review}}",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:52:21.284Z",
+    "modifiedOn": "2019-07-09T15:52:21.284Z"
+  },
+  {
+    "id": "builtin_text-UvdMPM",
+    "formData": {
+      "text$en": "चैटबॉट का उपयोग करने के लिए धन्यवाद  |",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:53:02.775Z",
+    "modifiedOn": "2019-07-09T15:53:02.775Z"
+  },
+  {
+    "id": "builtin_text-TuuN92",
+    "formData": {
+      "text$en": "मुझे अपनी ईमेल आईडी बताओ .....",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:56:13.643Z",
+    "modifiedOn": "2019-07-09T15:56:13.643Z"
+  },
+  {
+    "id": "builtin_text-xhFbS5",
+    "formData": {
+      "text$en": "सदस्यता लेने के लिए धन्यवाद :)",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:57:33.907Z",
+    "modifiedOn": "2019-07-09T15:57:33.907Z"
+  },
+  {
+    "id": "builtin_text-sNjza3",
+    "formData": {
+      "text$en": "आप यहां लगातार ब्रेकिंग न्यूज अलर्ट्स प्राप्त करते रहेंगे।",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T08:01:28.779Z",
+    "modifiedOn": "2019-07-12T08:01:28.779Z"
+  },
+  {
+    "id": "builtin_text-NEsM8t",
+    "formData": {
+      "text$en": "आप नीचे दिए गए मैन्यू से तुरंत टॉप स्टोरीज या ट्रैंडिंग स्टोरीज प्राप्त कर सकते हैं।\n",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T08:01:53.000Z",
+    "modifiedOn": "2019-07-12T08:01:53.000Z"
+  },
+  {
+    "id": "builtin_text-xeUVuY",
+    "formData": {
+      "text$en": "यदि आप हमारे अपडेट्स पुनः प्राप्त करना चाहते हैं, तो बस \"Start\" भेजें।\n",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T08:24:59.413Z",
+    "modifiedOn": "2019-08-12T12:56:10.780Z"
+  },
+  {
+    "id": "builtin_text-TwfoJQ",
+    "formData": {
+      "text$en": "सब्सक्राइब करने के लिए अपने पसंदीदा विषय को चुनें।  ",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T08:27:12.991Z",
+    "modifiedOn": "2019-08-16T18:58:04.408Z"
+  },
+  {
+    "id": "builtin_text-OxexHf",
+    "formData": {
+      "text$en": "{{user.subcat}}  सब्सक्राइब करने के लिए धन्यवाद।\nअनसब्सक्राइब करने के लिए मैनेज सुब्स्क्रिप्शन्स ऑप्शन से अपने चुनिंदा विषय को फिर से सलेक्ट कर कभी भी अनसब्सक्राइब कर सकते हो।\n",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T08:42:12.032Z",
+    "modifiedOn": "2019-07-12T08:42:12.032Z"
+  },
+  {
+    "id": "builtin_text-AMgnp6",
+    "formData": {
+      "text$en": "{{user.subcat}}  सदस्यता समाप्त करने के लिए धन्यवाद।\nसदस्यता समाप्त करने के लिए, आप अपने चुने हुए विषय को सदस्यता विकल्प से हटाकर किसी भी समय सदस्यता समाप्त कर सकते हैं।",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T08:53:54.794Z",
+    "modifiedOn": "2019-07-12T08:53:54.794Z"
+  },
+  {
+    "id": "builtin_text-z5dHdd",
+    "formData": {
+      "text$en": "{{user.subcat}} unsubscribed",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T10:22:00.482Z",
+    "modifiedOn": "2019-07-12T10:22:23.067Z"
+  },
+  {
+    "id": "builtin_text-hu-tc0",
+    "formData": {
+      "text$en": "{{user.subcat}} subscribed\n",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-12T10:22:49.742Z",
+    "modifiedOn": "2019-07-12T10:22:49.742Z"
+  },
+  {
+    "id": "builtin_text-MiiT_J",
+    "formData": {
+      "text$en": "आप नीचे दिए गए मैन्यू से तुरंत टॉप स्टोरीज या ट्रैंडिंग स्टोरीज प्राप्त कर सकते ",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-08-12T12:44:36.447Z",
+    "modifiedOn": "2019-08-12T12:44:36.447Z"
+  },
+  {
+    "id": "builtin_text-33-apj",
+    "formData": {
+      "text$en": "यही नहीं, लेटेस्ट खबरें पाने के लिए अपना पसंदीदा टॉपिक या कीवर्ड टाइप करें, जैसे - \"cricket\", \"astrology\", \"bollywood\", \"entertainment\", \"lifestyle\", \"technology\"  और अपडेट्स पाएं |",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-08-12T12:48:18.930Z",
+    "modifiedOn": "2019-08-12T12:48:18.930Z"
+  },
+  {
+    "id": "builtin_text-6uv998",
+    "formData": {
+      "text$en": "यदि आप हमारे अपडेट्स प्राप्त करना बंद करना चाहते हैं, तो बस \"Stop\" भेजें। ",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-08-12T12:48:39.250Z",
+    "modifiedOn": "2019-08-12T12:48:39.250Z"
+  },
+  {
+    "id": "builtin_text-aWG2Re",
+    "formData": {
+      "text$en": "user id is {{user.telegramid}}",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-08-16T05:51:51.300Z",
+    "modifiedOn": "2019-08-16T06:10:23.016Z"
+  },
+  {
+    "id": "builtin_text-q4Zgnu",
+    "formData": {
+      "text$en": "{{user.subcat}} सदस्यता समाप्त करने के लिए धन्यवाद।\nअनसब्सक्राइब करने के लिए मैनेज सुब्स्क्रिप्शन्स ऑप्शन से अपने चुनिंदा विषय को फिर से सलेक्ट कर कभी भी अनसब्सक्राइब कर सकते हो।\n",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-08-16T19:15:53.596Z",
+    "modifiedOn": "2019-08-16T19:15:53.596Z"
+  }
+]

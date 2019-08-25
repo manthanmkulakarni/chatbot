@@ -1,0 +1,13 @@
+{
+  "name": "none",
+  "utterances": [
+    "ok",
+    "!&#^&*$^*(%",
+    "1234567",
+    "abcdefg"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

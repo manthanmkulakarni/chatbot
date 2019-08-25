@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "8da0c78afc",
+      "position": {
+        "x": -20,
+        "y": 70
+      }
+    },
+    {
+      "id": "skill-ad16d2",
+      "position": {
+        "x": 210,
+        "y": 65
+      }
+    },
+    {
+      "id": "69fb1b4ecb",
+      "position": {
+        "x": 475,
+        "y": 205
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "8da0c78afc",
+      "sourcePort": "out0",
+      "target": "skill-ad16d2",
+      "points": [
+        {
+          "x": 187,
+          "y": 148
+        },
+        {
+          "x": 310,
+          "y": 58
+        }
+      ]
+    },
+    {
+      "source": "skill-ad16d2",
+      "sourcePort": "out4",
+      "target": "69fb1b4ecb",
+      "points": [
+        {
+          "x": 417,
+          "y": 288
+        },
+        {
+          "x": 575,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "source": "skill-ad16d2",
+      "sourcePort": "out5",
+      "target": "69fb1b4ecb",
+      "points": [
+        {
+          "x": 417,
+          "y": 313
+        },
+        {
+          "x": 575,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "source": "skill-ad16d2",
+      "sourcePort": "out6",
+      "target": "69fb1b4ecb",
+      "points": [
+        {
+          "x": 417,
+          "y": 338
+        },
+        {
+          "x": 575,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "source": "skill-ad16d2",
+      "sourcePort": "out7",
+      "target": "69fb1b4ecb",
+      "points": [
+        {
+          "x": 417,
+          "y": 382
+        },
+        {
+          "x": 575,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "source": "skill-ad16d2",
+      "sourcePort": "out8",
+      "target": "69fb1b4ecb",
+      "points": [
+        {
+          "x": 417,
+          "y": 425
+        },
+        {
+          "x": 575,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "source": "skill-ad16d2",
+      "sourcePort": "out9",
+      "target": "69fb1b4ecb",
+      "points": [
+        {
+          "x": 417,
+          "y": 451
+        },
+        {
+          "x": 575,
+          "y": 198
+        }
+      ]
+    }
+  ]
+}

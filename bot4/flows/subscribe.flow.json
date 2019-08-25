@@ -1,0 +1,35 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "1c0426c56e",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-tghnJI"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "thanumsg"
+        }
+      ]
+    },
+    {
+      "id": "0e5ee6f058",
+      "name": "thanumsg",
+      "next": [
+        {
+          "condition": "true",
+          "node": "commonarea.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-z2cLch"
+      ],
+      "onReceive": null
+    }
+  ]
+}

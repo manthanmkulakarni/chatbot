@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text==\"stop\"",
+        "node": "endflow.flow.json"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "7f31c650df",
+      "name": "entry",
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"trending\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "fetchnews.flow.json"
+        }
+      ]
+    }
+  ]
+}

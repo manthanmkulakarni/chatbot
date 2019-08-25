@@ -1,0 +1,1 @@
+temp.dest_num=temp.num * 2;

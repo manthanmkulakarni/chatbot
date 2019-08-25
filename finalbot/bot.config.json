@@ -1,0 +1,46 @@
+{
+  "locked": false,
+  "disabled": false,
+  "private": false,
+  "details": {},
+  "$schema": "../../bot.config.schema.json",
+  "description": "Empty bot",
+  "active": true,
+  "version": "1.0.0",
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": [],
+    "contentTypes": [
+      "builtin_action-button",
+      "builtin_card",
+      "builtin_carousel",
+      "builtin_image",
+      "builtin_single-choice",
+      "builtin_text",
+      "dropdown"
+    ]
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "finalbot",
+  "name": "finalbot",
+  "category": null,
+  "pipeline_status": {
+    "current_stage": {
+      "id": "prod",
+      "promoted_on": "2019-07-09T15:11:56.585Z",
+      "promoted_by": "manthanmkulakarni28@gmail.com"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "builtin_image-5CGDw2",
+    "formData": {
+      "image$en": "/api/v1/bots/bot4/media/zbv5mgysqqbnjezcdwdj-xdoaijvuudfxv7u3pyrj-amarujalaLogo1.jpg",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:25:48.785Z",
+    "modifiedOn": "2019-06-17T07:24:40.458Z"
+  },
+  {
+    "id": "builtin_image-C_1UvN",
+    "formData": {
+      "image$en": "/api/v1/bots/bot4/media/gui61zekd33uoo8hvkac-Amar_Ujala_cover_photo.jpg",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:46:42.766Z",
+    "modifiedOn": "2019-06-12T12:46:42.766Z"
+  }
+]

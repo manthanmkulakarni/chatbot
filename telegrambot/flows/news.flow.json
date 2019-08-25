@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "d3b745868b",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-O4TtHL",
+        "say #!builtin_text-vpbGXv"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"{{event.payload.text}}\"}",
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newsflg\",\"value\":\"0\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "fetchnews.flow.json"
+        }
+      ]
+    }
+  ]
+}

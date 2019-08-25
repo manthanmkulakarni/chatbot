@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "9e7af5c74f",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-ya-Ale"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "fetchnews.flow.json"
+        }
+      ]
+    }
+  ]
+}

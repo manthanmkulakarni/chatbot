@@ -1,0 +1,143 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "f6b4770a2d",
+      "name": "entry",
+      "onEnter": [
+        "getnews {}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "delaynode"
+        }
+      ]
+    },
+    {
+      "id": "19c618afc7",
+      "name": "delaynode",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-bbdb"
+        }
+      ],
+      "onEnter": [
+        "builtin/wait {\"delay\":\"5500\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a702c5527e",
+      "name": "incrementCount",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "incrementnewsflg {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-eae327",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-eae327",
+      "flow": "skills/choice-eae327.flow.json",
+      "next": [
+        {
+          "caption": "User picked [yes]",
+          "condition": "temp['skill-choice-ret'] == \"yes\"",
+          "node": "incrementCount"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"no\"",
+          "node": "choice-b5d7db"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "choice-b5d7db"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "skill-b5d7db",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-b5d7db",
+      "flow": "skills/choice-b5d7db.flow.json",
+      "next": [
+        {
+          "condition": "temp['skill-choice-ret'] == \"news\"",
+          "node": "changeTopic.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"reset\"",
+          "node": "node-a80d"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "e0dbc443c4",
+      "name": "node-73bf",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-VwI3XX",
+        "say #!builtin_text-71h8iz"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "ed0b2caf29",
+      "name": "node-a80d",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-73bf"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-MFgoBo"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"feedback\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "ebba27ed1f",
+      "name": "node-bbdb",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-qI2Ji9"
+      ],
+      "onReceive": null
+    }
+  ]
+}

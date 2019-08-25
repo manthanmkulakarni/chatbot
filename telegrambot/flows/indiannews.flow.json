@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "af1a27afda",
+      "name": "entry",
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"india-news\"}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "fetchnews.flow.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "builtin_single-choice-F_e7cr",
+    "formData": {
+      "text$en": "आप क्या करना चाहते हैं  ????",
+      "choices$en": [
+        {
+          "title": "समाचार प्राप्त करें",
+          "value": "news"
+        },
+        {
+          "title": " हमारी न्यूज़ सब्सक्राइब करें",
+          "value": "subscribe"
+        },
+        {
+          "title": "हमारा वेब पेज",
+          "value": "webpage"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:30:10.554Z",
+    "modifiedOn": "2019-07-09T07:42:30.814Z"
+  },
+  {
+    "id": "builtin_single-choice-jelIJT",
+    "formData": {
+      "text$en": "क्या आप इसी विषय को जारी रखना चाहेंगे  ???",
+      "choices$en": [
+        {
+          "title": " हाँ",
+          "value": "yes"
+        },
+        {
+          "title": " नहीं",
+          "value": "no"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T10:37:08.750Z",
+    "modifiedOn": "2019-07-09T07:18:26.263Z"
+  },
+  {
+    "id": "builtin_single-choice-hWc7aV",
+    "formData": {
+      "text$en": "Choose any option from below choice .....",
+      "choices$en": [
+        {
+          "title": "Business",
+          "value": "busi"
+        },
+        {
+          "title": "City",
+          "value": "cit"
+        },
+        {
+          "title": "Crime",
+          "value": "crim"
+        },
+        {
+          "title": "Education",
+          "value": "edu"
+        },
+        {
+          "title": "Politics",
+          "value": "poli"
+        },
+        {
+          "title": "Sports",
+          "value": "spor"
+        },
+        {
+          "title": "Tech",
+          "value": "tec"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T11:04:54.463Z",
+    "modifiedOn": "2019-06-13T11:04:54.463Z"
+  },
+  {
+    "id": "builtin_single-choice-LnHtUX",
+    "formData": {
+      "text$en": "क्या आप अधिक समाचार प्राप्त करना चाहते हैं या आपको चैट रीसेट करना  चाहते  है",
+      "choices$en": [
+        {
+          "title": "समाचार प्राप्त करें",
+          "value": "news"
+        },
+        {
+          "title": "चैट रीसेट करें",
+          "value": "reset"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T07:24:44.755Z",
+    "modifiedOn": "2019-07-09T07:24:44.755Z"
+  }
+]

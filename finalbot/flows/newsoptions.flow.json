@@ -1,0 +1,241 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "c7f12833f6",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-w7wFwP"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-ed11b1"
+        }
+      ]
+    },
+    {
+      "id": "2574494195",
+      "name": "subend",
+      "next": [
+        {
+          "condition": "true",
+          "node": "fetchnews.flow.json"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "skill-ed11b1",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-ed11b1",
+      "flow": "skills/choice-ed11b1.flow.json",
+      "next": [
+        {
+          "caption": "User picked [topstor...]",
+          "condition": "temp['skill-choice-ret'] == \"topstories\"",
+          "node": "node-bdcb"
+        },
+        {
+          "caption": "User picked [trending]",
+          "condition": "temp['skill-choice-ret'] == \"trending\"",
+          "node": "node-97b6"
+        },
+        {
+          "caption": "User picked [indiann...]",
+          "condition": "temp['skill-choice-ret'] == \"indiannews\"",
+          "node": "node-9d8d"
+        },
+        {
+          "caption": "User picked [enterta...]",
+          "condition": "temp['skill-choice-ret'] == \"entertainment\"",
+          "node": "node-b944"
+        },
+        {
+          "caption": "User picked [cricket]",
+          "condition": "temp['skill-choice-ret'] == \"cricket\"",
+          "node": "node-cfe6"
+        },
+        {
+          "caption": "User picked [jobs]",
+          "condition": "temp['skill-choice-ret'] == \"jobs\"",
+          "node": "node-24e4"
+        },
+        {
+          "caption": "User picked [astrolo...]",
+          "condition": "temp['skill-choice-ret'] == \"astrology\"",
+          "node": "node-e30d"
+        },
+        {
+          "caption": "User picked [lifesty...]",
+          "condition": "temp['skill-choice-ret'] == \"lifestyle\"",
+          "node": "node-5936"
+        },
+        {
+          "caption": "User picked [technol...]",
+          "condition": "temp['skill-choice-ret'] == \"technology\"",
+          "node": "node-efbf"
+        },
+        {
+          "caption": "User picked [automob...]",
+          "condition": "temp['skill-choice-ret'] == \"automobiles\"",
+          "node": "node-5191"
+        },
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "d2501a25f6",
+      "name": "node-bdcb",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"latest\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d3daefe6ee",
+      "name": "node-cfe6",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"cricket\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "8495ef2467",
+      "name": "node-24e4",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"jobs\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "86a23c7db4",
+      "name": "node-97b6",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"trending\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f575802cf6",
+      "name": "node-9d8d",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"india-news\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "800f5d0a37",
+      "name": "node-b944",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"entertainment\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4d5969c247",
+      "name": "node-e30d",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"astrology\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "532ff21e0e",
+      "name": "node-5936",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"lifestyle\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "17a95f7f10",
+      "name": "node-efbf",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"technology\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "b4088cc431",
+      "name": "node-5191",
+      "next": [
+        {
+          "condition": "true",
+          "node": "subend"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"automobiles\"}"
+      ],
+      "onReceive": null
+    }
+  ]
+}

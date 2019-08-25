@@ -1,0 +1,116 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "contentId": "builtin_single-choice-6Su5h1",
+    "keywords": {
+      "topstories": [
+        "topstories",
+        "Top Stories"
+      ],
+      "trending": [
+        "trending",
+        "Trending"
+      ],
+      "indiannews": [
+        "indiannews",
+        "Indian news"
+      ],
+      "entertainment": [
+        "entertainment",
+        "Entertainment"
+      ],
+      "cricket": [
+        "cricket",
+        "Cricket"
+      ],
+      "jobs": [
+        "jobs",
+        "Jobs"
+      ],
+      "astrology": [
+        "astrology",
+        "Astrology"
+      ],
+      "lifestyle": [
+        "lifestyle",
+        "Lifestyle"
+      ],
+      "technology": [
+        "technology",
+        "Technology"
+      ],
+      "automobiles": [
+        "automobiles",
+        "Automobiles"
+      ]
+    },
+    "config": {}
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-6Su5h1 {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "922208"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"contentId\":\"builtin_single-choice-6Su5h1\",\"keywords\":{\"topstories\":[\"topstories\",\"Top Stories\"],\"trending\":[\"trending\",\"Trending\"],\"indiannews\":[\"indiannews\",\"Indian news\"],\"entertainment\":[\"entertainment\",\"Entertainment\"],\"cricket\":[\"cricket\",\"Cricket\"],\"jobs\":[\"jobs\",\"Jobs\"],\"astrology\":[\"astrology\",\"Astrology\"],\"lifestyle\":[\"lifestyle\",\"Lifestyle\"],\"technology\":[\"technology\",\"Technology\"],\"automobiles\":[\"automobiles\",\"Automobiles\"]},\"config\":{}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "onEnter": [],
+      "id": "380900"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-invalid-count'] <= undefined",
+          "node": "sorry"
+        },
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "889648"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [
+        "say #!builtin_single-choice-6Su5h1 {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "338386"
+    }
+  ]
+}

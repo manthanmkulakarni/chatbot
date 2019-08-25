@@ -1,0 +1,139 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text==\"stop\"",
+        "node": "endflow.flow.json"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "1de2f907ea",
+      "name": "entry",
+      "onEnter": [
+        "getnews {}"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-8871"
+        }
+      ]
+    },
+    {
+      "id": "51b28216ff",
+      "name": "node-8871",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-9ac9"
+        }
+      ],
+      "onEnter": [
+        "builtin/wait {\"delay\":\"1500\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "aeed74c282",
+      "name": "node-9ac9",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-50fa48"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_carousel-1SOPWr"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "79ec93328f",
+      "name": "node-15c2",
+      "next": [
+        {
+          "condition": "true",
+          "node": "entry"
+        }
+      ],
+      "onEnter": [
+        "incrementnewsflg {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-03e8a2",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-03e8a2",
+      "flow": "skills/choice-03e8a2.flow.json",
+      "next": [
+        {
+          "caption": "User picked [continue]",
+          "condition": "temp['skill-choice-ret'] == \"continue\"",
+          "node": "node-15c2"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"change\"",
+          "node": "changetopic.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"rest\"",
+          "node": "endflow.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "15c03e5af5",
+      "name": "node-d9af",
+      "next": [],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "skill-50fa48",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-50fa48",
+      "flow": "skills/choice-50fa48.flow.json",
+      "next": [
+        {
+          "caption": "User picked [Next St...]",
+          "condition": "temp['skill-choice-ret'] == \"Next Story\"",
+          "node": "node-15c2"
+        },
+        {
+          "condition": "event.payload.text==\"Next Story\"",
+          "node": "node-15c2"
+        },
+        {
+          "condition": "event.payload.text==\"next story\"",
+          "node": "node-15c2"
+        },
+        {
+          "condition": "event.payload.text==\"next\"",
+          "node": "node-15c2"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "choice-03e8a2"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

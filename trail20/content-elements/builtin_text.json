@@ -1,0 +1,110 @@
+[
+  {
+    "id": "builtin_text-hWLjfw",
+    "formData": {
+      "text$en": "Welcomee",
+      "typing$en": true,
+      "text$undefined": "Welcomee",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-08T19:56:07.363Z",
+    "modifiedOn": "2019-06-12T11:20:48.514Z"
+  },
+  {
+    "id": "builtin_text-6Rt_js",
+    "formData": {
+      "text$en": "Hello {{temp.num}}\nHello {{temp.dest_num}}",
+      "typing$en": true,
+      "text$undefined": "Hello {{temp.num}}\nHello {{temp.dest_num}}",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-08T19:58:20.834Z",
+    "modifiedOn": "2019-06-12T11:20:48.524Z"
+  },
+  {
+    "id": "builtin_text-RLSQki",
+    "formData": {
+      "text$en": "News Category is ENTERTAINMENT",
+      "typing$en": true,
+      "text$undefined": "News Category is ENTERTAINMENT",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:08:32.078Z",
+    "modifiedOn": "2019-06-12T11:20:48.530Z"
+  },
+  {
+    "id": "builtin_text-bZMphp",
+    "formData": {
+      "text$en": "News Category is BUSINESS",
+      "typing$en": true,
+      "text$undefined": "News Category is BUSINESS",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:10:34.243Z",
+    "modifiedOn": "2019-06-12T11:20:48.537Z"
+  },
+  {
+    "id": "builtin_text-U0Vd_a",
+    "formData": {
+      "text$en": "Which news can I help you with?",
+      "typing$en": true,
+      "text$undefined": "Which news can I help you with?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:12:25.061Z",
+    "modifiedOn": "2019-06-12T11:20:48.542Z"
+  },
+  {
+    "id": "builtin_text-J96MUj",
+    "formData": {
+      "text$en": "Which news can I help you with?",
+      "typing$en": true,
+      "text$undefined": "Which news can I help you with?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:17:10.748Z",
+    "modifiedOn": "2019-06-12T11:20:48.548Z"
+  },
+  {
+    "id": "builtin_text-P9zQdr",
+    "formData": {
+      "text$en": " Welcomeeeeee",
+      "typing$en": true,
+      "text$undefined": " Welcomeeeeee",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:18:41.078Z",
+    "modifiedOn": "2019-06-12T11:20:48.557Z"
+  },
+  {
+    "id": "builtin_text-G2pubt",
+    "formData": {
+      "text$en": " Which news can I help you with?",
+      "typing$en": true,
+      "text$undefined": " Which news can I help you with?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:20:45.479Z",
+    "modifiedOn": "2019-06-12T11:20:48.563Z"
+  },
+  {
+    "id": "builtin_text-SQDKtH",
+    "formData": {
+      "text$en": " Which news can I help you with?",
+      "typing$en": true,
+      "text$undefined": " Which news can I help you with?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:36:47.968Z",
+    "modifiedOn": "2019-06-12T11:20:48.568Z"
+  }
+]

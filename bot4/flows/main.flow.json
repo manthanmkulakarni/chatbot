@@ -1,0 +1,95 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-7e84c4"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-rqf8cb",
+        "say #!builtin_text-eaCmuj"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d966aa1a96",
+      "name": "errorMessage",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-7e84c4"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-mjIUPH"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "419d13d20e",
+      "name": "subscribe",
+      "next": [
+        {
+          "condition": "true",
+          "node": "thankForSubscribe"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-tghnJI"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"userEmail\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "1aeff68ab0",
+      "name": "thankForSubscribe",
+      "next": [
+        {
+          "condition": "true",
+          "node": "commonarea.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-z2cLch"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-7e84c4",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-7e84c4",
+      "flow": "skills/choice-7e84c4.flow.json",
+      "next": [
+        {
+          "condition": "temp['skill-choice-ret'] == \"news\"",
+          "node": "commonarea.flow.json"
+        },
+        {
+          "caption": "User picked [subscri...]",
+          "condition": "temp['skill-choice-ret'] == \"subscribe\"",
+          "node": "subscribe"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"webpage\"",
+          "node": "AmarUjalaWebpage.flow.json"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "errorMessage"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

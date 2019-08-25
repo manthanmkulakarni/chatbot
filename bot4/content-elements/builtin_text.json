@@ -1,0 +1,361 @@
+[
+  {
+    "id": "builtin_text-hWLjfw",
+    "formData": {
+      "text$en": "Welcomee",
+      "typing$en": true,
+      "text$undefined": "Welcomee",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-08T19:56:07.363Z",
+    "modifiedOn": "2019-06-12T11:20:48.514Z"
+  },
+  {
+    "id": "builtin_text-6Rt_js",
+    "formData": {
+      "text$en": "Hello {{temp.num}}\nHello {{temp.dest_num}}",
+      "typing$en": true,
+      "text$undefined": "Hello {{temp.num}}\nHello {{temp.dest_num}}",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-08T19:58:20.834Z",
+    "modifiedOn": "2019-06-12T11:20:48.524Z"
+  },
+  {
+    "id": "builtin_text-RLSQki",
+    "formData": {
+      "text$en": "News Category is ENTERTAINMENT",
+      "typing$en": true,
+      "text$undefined": "News Category is ENTERTAINMENT",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:08:32.078Z",
+    "modifiedOn": "2019-06-12T11:20:48.530Z"
+  },
+  {
+    "id": "builtin_text-bZMphp",
+    "formData": {
+      "text$en": "News Category is BUSINESS",
+      "typing$en": true,
+      "text$undefined": "News Category is BUSINESS",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:10:34.243Z",
+    "modifiedOn": "2019-06-12T11:20:48.537Z"
+  },
+  {
+    "id": "builtin_text-U0Vd_a",
+    "formData": {
+      "text$en": "Which news can I help you with?",
+      "typing$en": true,
+      "text$undefined": "Which news can I help you with?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:12:25.061Z",
+    "modifiedOn": "2019-06-12T11:20:48.542Z"
+  },
+  {
+    "id": "builtin_text-J96MUj",
+    "formData": {
+      "text$en": "Which news can I help you with?",
+      "typing$en": true,
+      "text$undefined": "Which news can I help you with?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:17:10.748Z",
+    "modifiedOn": "2019-06-12T11:20:48.548Z"
+  },
+  {
+    "id": "builtin_text-P9zQdr",
+    "formData": {
+      "text$en": " Welcomeeeeee",
+      "typing$en": true,
+      "text$undefined": " Welcomeeeeee",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:18:41.078Z",
+    "modifiedOn": "2019-06-12T11:20:48.557Z"
+  },
+  {
+    "id": "builtin_text-G2pubt",
+    "formData": {
+      "text$en": "लेटेस्ट खबरें पाने के लिए अपना पसंदीदा टॉपिक या कीवर्ड टाइप करें, जैसे - \"cricket\", \"astrology\", \"bollywood\", \"entertainment\", \"lifestyle\", \"technology\"",
+      "typing$en": true,
+      "text$undefined": " Which news can I help you with?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:20:45.479Z",
+    "modifiedOn": "2019-07-09T06:40:27.442Z"
+  },
+  {
+    "id": "builtin_text-SQDKtH",
+    "formData": {
+      "text$en": " Which news can I help you with?",
+      "typing$en": true,
+      "text$undefined": " Which news can I help you with?",
+      "typing$undefined": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-11T15:36:47.968Z",
+    "modifiedOn": "2019-06-12T11:20:48.568Z"
+  },
+  {
+    "id": "builtin_text-eaCmuj",
+    "formData": {
+      "text$en": "अमर उजाला में आपका स्वागत है।",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:55:34.777Z",
+    "modifiedOn": "2019-07-09T07:00:28.954Z"
+  },
+  {
+    "id": "builtin_text-rqf8cb",
+    "formData": {
+      "text$en": "Hi :)",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:56:00.708Z",
+    "modifiedOn": "2019-06-12T11:56:00.708Z"
+  },
+  {
+    "id": "builtin_text--nUItt",
+    "formData": {
+      "text$en": "Fetching business news ......................",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:18:46.269Z",
+    "modifiedOn": "2019-06-12T12:18:46.269Z"
+  },
+  {
+    "id": "builtin_text-2JL0dv",
+    "formData": {
+      "text$en": "Fetching entertainment news",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:19:42.209Z",
+    "modifiedOn": "2019-06-12T12:19:42.209Z"
+  },
+  {
+    "id": "builtin_text-4fmxDm",
+    "formData": {
+      "text$en": "let me know your astro sign",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:27:22.019Z",
+    "modifiedOn": "2019-06-12T12:27:22.019Z"
+  },
+  {
+    "id": "builtin_text-mjIUPH",
+    "formData": {
+      "text$en": "Sorry I could not get your response .\nPlease try again",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:32:18.585Z",
+    "modifiedOn": "2019-06-12T12:32:18.585Z"
+  },
+  {
+    "id": "builtin_text-gxtWF5",
+    "formData": {
+      "text$en": "Sorry I could not get you.\nChoose any option from below .",
+      "variations$en": [],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T10:34:40.448Z",
+    "modifiedOn": "2019-06-13T10:34:40.448Z"
+  },
+  {
+    "id": "builtin_text-AHui0C",
+    "formData": {
+      "text$en": "Fetching city news...",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T10:39:09.491Z",
+    "modifiedOn": "2019-06-13T10:39:09.491Z"
+  },
+  {
+    "id": "builtin_text-V9qaTi",
+    "formData": {
+      "text$en": "Fetching crime news ...",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T10:40:37.103Z",
+    "modifiedOn": "2019-06-13T10:40:37.103Z"
+  },
+  {
+    "id": "builtin_text-GXsB2Y",
+    "formData": {
+      "text$en": "Fetching edu news ...",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T10:42:09.946Z",
+    "modifiedOn": "2019-06-13T10:42:09.946Z"
+  },
+  {
+    "id": "builtin_text-siLpU9",
+    "formData": {
+      "text$en": "Fetching politics news ....",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T10:44:15.602Z",
+    "modifiedOn": "2019-06-13T10:44:15.602Z"
+  },
+  {
+    "id": "builtin_text-WSIuST",
+    "formData": {
+      "text$en": "Fetching spots news ...",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T10:45:19.633Z",
+    "modifiedOn": "2019-06-13T10:45:19.633Z"
+  },
+  {
+    "id": "builtin_text-5zePNb",
+    "formData": {
+      "text$en": "Fetching Tech news ....",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T10:46:27.419Z",
+    "modifiedOn": "2019-06-13T10:46:27.419Z"
+  },
+  {
+    "id": "builtin_text-68sbvh",
+    "formData": {
+      "text$en": "Fetching automobile news ...",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T10:57:39.356Z",
+    "modifiedOn": "2019-06-13T10:57:39.356Z"
+  },
+  {
+    "id": "builtin_text-v7Mmme",
+    "formData": {
+      "text$en": "सरकार को हिंदू-मुस्लिम छात्रों के बीच कोई भेद नहीं करना चाहिए और कोई भी योजना सबके लिए लानी चाहिए जिससे हर वर्ग के छात्रों का भला हो सके।",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-13T17:22:02.072Z",
+    "modifiedOn": "2019-06-13T17:22:02.072Z"
+  },
+  {
+    "id": "builtin_text-cA5HOI",
+    "formData": {
+      "text$en": "Head line {{user.newsheadlines}}\nSynopsys {{user.newssynopsys}}",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-14T07:58:14.831Z",
+    "modifiedOn": "2019-06-14T08:11:19.155Z"
+  },
+  {
+    "id": "builtin_text-tghnJI",
+    "formData": {
+      "text$en": "हे, मुझे अपनी ईमेल आईडी बताओ ..........",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-17T07:17:00.718Z",
+    "modifiedOn": "2019-07-09T07:50:02.898Z"
+  },
+  {
+    "id": "builtin_text-z2cLch",
+    "formData": {
+      "text$en": "सदस्यता लेने के लिए धन्यवाद :)",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-17T07:18:35.298Z",
+    "modifiedOn": "2019-07-09T07:52:03.407Z"
+  },
+  {
+    "id": "builtin_text-fUH-Tb",
+    "formData": {
+      "text$en": "या, इन कीवर्ड्स से तुरंत ट्रेंडिंग खबरें पाएं - \"Top Stories\", \"Trending\", \"Latest\"\n",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:40:51.264Z",
+    "modifiedOn": "2019-07-09T06:40:51.264Z"
+  },
+  {
+    "id": "builtin_text-YmWPjG",
+    "formData": {
+      "text$en": "{{user.newscat}} समाचार .........",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:47:20.561Z",
+    "modifiedOn": "2019-07-09T14:54:25.995Z"
+  },
+  {
+    "id": "builtin_text-ya-Ale",
+    "formData": {
+      "text$en": "आप कौन सी खबर पाना चाहेंगे",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T07:08:49.172Z",
+    "modifiedOn": "2019-07-09T07:08:49.172Z"
+  },
+  {
+    "id": "builtin_text-71h8iz",
+    "formData": {
+      "text$en": "चैटबॉट का उपयोग करने के लिए धन्यवाद .",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T07:31:45.323Z",
+    "modifiedOn": "2019-07-09T07:31:45.323Z"
+  },
+  {
+    "id": "builtin_text-MFgoBo",
+    "formData": {
+      "text$en": "\nअमर उजाला हम हमेशा अपने दर्शकों को सर्वश्रेष्ठ अनुभव देने के लिए समर्पित हैं। कृपया अपनी प्रतिक्रिया साझा करें कि हम आपके अनुभव को कैसे बेहतर बना सकते हैं।",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T07:37:36.719Z",
+    "modifiedOn": "2019-07-09T07:37:36.719Z"
+  },
+  {
+    "id": "builtin_text-VwI3XX",
+    "formData": {
+      "text$en": "{{user.feedback}}",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T07:40:02.199Z",
+    "modifiedOn": "2019-07-09T07:40:02.199Z"
+  },
+  {
+    "id": "builtin_text-qI2Ji9",
+    "formData": {
+      "text$en": "news {{user.headlines1}}",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T14:53:09.449Z",
+    "modifiedOn": "2019-07-09T14:59:45.628Z"
+  }
+]

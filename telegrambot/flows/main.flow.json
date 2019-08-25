@@ -1,0 +1,146 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text==\"stop\"",
+        "node": "endflow.flow.json"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-1635"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-WoR65G",
+        "say #!builtin_text-sNjza3",
+        "say #!builtin_text-MiiT_J"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-ad16d2",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-ad16d2",
+      "flow": "skills/choice-ad16d2.flow.json",
+      "next": [
+        {
+          "condition": "temp['skill-choice-ret'] == \"topstories\"",
+          "node": "topstories.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"trendingnews\"",
+          "node": "trending.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"indiannews\"",
+          "node": "indiannews.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"msubscription\"",
+          "node": "subscribe.flow.json"
+        },
+        {
+          "condition": "event.payload.text==\"cricket\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"astrology\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"bollywood\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"entertainment\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"lifestyle\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"technology\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "true",
+          "node": "choice-4309c7"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "e255ec8cd0",
+      "name": "node-1635",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-ad16d2"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-33-apj",
+        "say #!builtin_text-6uv998"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "69fb1b4ecb",
+      "name": "node-7847",
+      "next": [
+        {
+          "condition": "true",
+          "node": "fetchnews.flow.json"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-4309c7",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-4309c7",
+      "flow": "skills/choice-4309c7.flow.json",
+      "next": [
+        {
+          "condition": "temp['skill-choice-ret'] == \"top stories\"",
+          "node": "topstories.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"trending stories\"",
+          "node": "trending.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"india news\"",
+          "node": "indiannews.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"manage subscriptions\"",
+          "node": "subscribe.flow.json"
+        },
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}

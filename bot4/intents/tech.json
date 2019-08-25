@@ -1,0 +1,15 @@
+{
+    "name" : "TECH",
+    "utterances" :  [
+      "mobile",
+      "apple",
+      "samsung",
+      "oppo",
+      "pc",
+      "laptop","computer",
+      "Implementing Knowledge Management", "Implementing Knowledge Management", "Getting the most out of data warehousing", "It s time to animate your work profile", "Loading Technology", "Enterprises are rapidly moving to cloud Ama ", "Why people are sharing less on Facebook Twi ", "US state mulls bill to bring call centres back", "Now get certificate in terrorism online ", "BPOs cutting down on graveyard shifts", "The road to business intelligence", "What s in store ", "Coping with stress at BPOs", "How to bell the BPO cat", "BPO The new training grounds", "BPO Advantage India", "How to surf anonymously", "BPOs turn sweatshops in urban India", "Mobile bazaar gets a facelift", "Mobile bazaar gets a facelift"],
+    "slots" :  [],
+    "contexts" : [
+      "global"
+    ]
+  }

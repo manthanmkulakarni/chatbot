@@ -1,0 +1,93 @@
+[
+  {
+    "id": "builtin_text-hWLjfw",
+    "formData": {
+      "text": "Welcomee",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:16:08.559Z",
+    "modifiedOn": "2019-06-12T11:16:08.559Z"
+   
+  },
+  {
+    "id": "builtin_text-6Rt_js",
+    "formData": {
+      "text": "Hello {{temp.num}}\nHello {{temp.dest_num}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:16:08.559Z",
+    "modifiedOn": "2019-06-12T11:16:08.559Z"
+  },
+  {
+    "id": "builtin_text-RLSQki",
+    "formData": {
+      "text": "News Category is ENTERTAINMENT",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:16:08.559Z",
+    "modifiedOn": "2019-06-12T11:16:08.559Z"
+  },
+  {
+    "id": "builtin_text-bZMphp",
+    "formData": {
+      "text": "News Category is BUSINESS",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:16:08.559Z",
+    "modifiedOn": "2019-06-12T11:16:08.559Z"
+  },
+  {
+    "id": "builtin_text-U0Vd_a",
+    "formData": {
+      "text": "Which news can I help you with?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:16:08.559Z",
+    "modifiedOn": "2019-06-12T11:16:08.559Z"
+  },
+  {
+    "id": "builtin_text-J96MUj",
+    "formData": {
+      "text": "Which news can I help you with?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:16:08.559Z",
+    "modifiedOn": "2019-06-12T11:16:08.559Z"
+  },
+  {
+    "id": "builtin_text-P9zQdr",
+    "formData": {
+      "text": " Welcomeeeeee",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:16:08.559Z",
+    "modifiedOn": "2019-06-12T11:16:08.559Z"
+  },
+  {
+    "id": "builtin_text-G2pubt",
+    "formData": {
+      "text": " Which news can I help you with?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:16:08.559Z",
+    "modifiedOn": "2019-06-12T11:16:08.559Z"
+  },
+  {
+    "id": "builtin_text-SQDKtH",
+    "formData": {
+      "text": " Which news can I help you with?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T11:16:08.559Z",
+    "modifiedOn": "2019-06-12T11:16:08.559Z"
+  }
+]

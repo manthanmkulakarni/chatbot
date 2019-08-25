@@ -1,0 +1,1 @@
+user.newsflg=user.newsflg+2

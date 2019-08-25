@@ -1,0 +1,47 @@
+[
+  {
+    "id": "builtin_carousel-8o8ico",
+    "formData": {
+      "items$en": [
+        {
+          "title": "{{user.newsheadlines2}}",
+          "subtitle": "{{user.newssynopsys2}}",
+          "actions": [
+            {
+              "title": "read story",
+              "action": "Open URL",
+              "url": "{{user.newsurl2}}"
+            }
+          ]
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:35:38.723Z",
+    "modifiedOn": "2019-07-09T15:35:38.723Z"
+  },
+  {
+    "id": "builtin_carousel-1SOPWr",
+    "formData": {
+      "items$en": [
+        {
+          "title": "{{user.newsheadlines1}}",
+          "subtitle": "{{user.newssynopsys1}}",
+          "actions": [
+            {
+              "title": "Read story",
+              "action": "Open URL",
+              "url": "{{user.newsurl1}}"
+            }
+          ],
+          "image": "{{user.imageurl1}}"
+        }
+      ],
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T15:36:28.371Z",
+    "modifiedOn": "2019-08-12T13:56:41.033Z"
+  }
+]

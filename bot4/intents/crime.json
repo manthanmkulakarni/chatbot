@@ -1,0 +1,19 @@
+{
+  "name": "CRIME",
+  "utterances": [
+    "crime",
+    "theft",
+    "murder",
+    "robbery",
+    "police",
+    "A queer judgment",
+    "Supreme Court ban on homosexuality is a tragic denial of minority rights",
+    "Know more about Crime Shows",
+    "Congress promises law on hate crimes Rs 2 kg rice",
+    " 47 000 cases of crimes on SC STs filed in 2016 "
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

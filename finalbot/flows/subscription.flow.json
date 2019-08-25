@@ -1,0 +1,56 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.name === 'news'",
+        "node": "news.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.name === 'subscription'",
+        "node": "subscription.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.name === 'start'",
+        "node": "endflow.flow.json"
+      },
+      {
+        "condition": "event.nlu.intent.name === 'search'",
+        "node": "search.flow.json"
+      }
+
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "2ec0d3360e",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-9oAvmY"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-51cc"
+        }
+      ]
+    },
+    {
+      "id": "5b639858a8",
+      "name": "node-51cc",
+      "next": [
+        {
+          "condition": "true",
+          "node": "newsoptions.flow.json"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-dxylyK"
+      ],
+      "onReceive": null
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": [
+      {
+        "condition": "event.nlu.intent.name === 'ENTERTAINMENT'",
+        "node": "ENTERTAINMENT"
+      },
+      {
+        "condition": "event.nlu.intent.name === 'BUSINESS'",
+        "node": "BUSINESS"
+      }
+    ],
+    "onReceive": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-P9zQdr",
+        "say #!builtin_text-SQDKtH"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "8ef4828ec9",
+      "name": "ENTERTAINMENT",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-RLSQki"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "363759adba",
+      "name": "BUSINESS",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-bZMphp"
+      ],
+      "onReceive": null
+    }
+  ]
+}

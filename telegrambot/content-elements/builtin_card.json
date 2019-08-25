@@ -1,0 +1,19 @@
+[
+  {
+    "id": "builtin_card-3mSiL_",
+    "formData": {
+      "title$en": "अमर उजाला ",
+      "subtitle$en": "होम पेज",
+      "actions$en": [
+        {
+          "title": "click here",
+          "action": "Open URL",
+          "url": "https://www.amarujala.com/tags/website?page=1"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T16:01:54.108Z",
+    "modifiedOn": "2019-07-09T16:01:54.108Z"
+  }
+]

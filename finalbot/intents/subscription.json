@@ -1,0 +1,11 @@
+{
+  "name": "subscription",
+  "utterances": [
+    "Manage subscription",
+    "Manage subscription","subscription","Manage"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

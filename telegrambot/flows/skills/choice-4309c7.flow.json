@@ -1,0 +1,92 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "next": []
+  },
+  "startNode": "entry",
+  "skillData": {
+    "contentId": "builtin_single-choice-DeMU5D",
+    "keywords": {
+      "top stories": [
+        "top stories",
+        "Top Stories"
+      ],
+      "trending stories": [
+        "trending stories",
+        "Trending Stories"
+      ],
+      "india news": [
+        "india news",
+        "India News"
+      ],
+      "manage subscriptions": [
+        "manage subscriptions",
+        "Manage Subscriptions"
+      ]
+    },
+    "config": {}
+  },
+  "nodes": [
+    {
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_single-choice-DeMU5D {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "441752"
+    },
+    {
+      "name": "parse",
+      "onReceive": [
+        "basic-skills/choice_parse_answer {\"contentId\":\"builtin_single-choice-DeMU5D\",\"keywords\":{\"top stories\":[\"top stories\",\"Top Stories\"],\"trending stories\":[\"trending stories\",\"Trending Stories\"],\"india news\":[\"india news\",\"India News\"],\"manage subscriptions\":[\"manage subscriptions\",\"Manage Subscriptions\"]},\"config\":{}}"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-valid'] === true",
+          "node": "#"
+        },
+        {
+          "condition": "true",
+          "node": "invalid"
+        }
+      ],
+      "onEnter": [],
+      "id": "184598"
+    },
+    {
+      "name": "invalid",
+      "onEnter": [
+        "basic-skills/choice_invalid_answer"
+      ],
+      "next": [
+        {
+          "condition": "temp['skill-choice-invalid-count'] <= undefined",
+          "node": "sorry"
+        },
+        {
+          "condition": "true",
+          "node": "#"
+        }
+      ],
+      "id": "788878"
+    },
+    {
+      "name": "sorry",
+      "onEnter": [
+        "say #!builtin_single-choice-DeMU5D {\"skill\":\"choice\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "parse"
+        }
+      ],
+      "id": "109256"
+    }
+  ]
+}

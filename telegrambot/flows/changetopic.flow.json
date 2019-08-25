@@ -1,0 +1,98 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.payload.text==\"stop\"",
+        "node": "endflow.flow.json"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "8da0c78afc",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-Jnxr9g"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-ad16d2"
+        }
+      ]
+    },
+    {
+      "id": "skill-ad16d2",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-ad16d2",
+      "flow": "skills/choice-ad16d2.flow.json",
+      "next": [
+        {
+          "condition": "temp['skill-choice-ret'] == \"topstories\"",
+          "node": "topstories.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"trendingnews\"",
+          "node": "trending.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"indiannews\"",
+          "node": "indiannews.flow.json"
+        },
+        {
+          "condition": "temp['skill-choice-ret'] == \"msubscription\"",
+          "node": "subscribe.flow.json"
+        },
+        {
+          "condition": "event.payload.text==\"cricket\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"astrology\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"bollywood\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"entertainment\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"lifestyle\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "event.payload.text==\"technolog\"",
+          "node": "node-7847"
+        },
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "69fb1b4ecb",
+      "name": "node-7847",
+      "next": [
+        {
+          "condition": "true",
+          "node": "fetchnews.flow.json"
+        }
+      ],
+      "onEnter": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"newscat\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "onReceive": null
+    }
+  ]
+}

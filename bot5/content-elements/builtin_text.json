@@ -1,0 +1,52 @@
+[
+  {
+    "id": "builtin_text-WAfa5w",
+    "formData": {
+      "text$en": "अमर उजाला में आपका स्वागत है।",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:31:41.832Z",
+    "modifiedOn": "2019-07-09T06:31:41.832Z"
+  },
+  {
+    "id": "builtin_text-t72Kkt",
+    "formData": {
+      "text$en": "लेटेस्ट खबरें पाने के लिए अपना पसंदीदा टॉपिक या कीवर्ड टाइप करें, जैसे - \"cricket\", \"astrology\", \"bollywood\", \"entertainment\", \"lifestyle\", \"technology\"\n\n\n",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:32:07.781Z",
+    "modifiedOn": "2019-07-09T06:34:24.541Z"
+  },
+  {
+    "id": "builtin_text-XcXxyU",
+    "formData": {
+      "text$en": "{{user.newscat}}",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:33:21.596Z",
+    "modifiedOn": "2019-07-09T06:33:21.596Z"
+  },
+  {
+    "id": "builtin_text-PVIniL",
+    "formData": {
+      "text$en": "hi :)",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:34:42.045Z",
+    "modifiedOn": "2019-07-09T06:34:42.045Z"
+  },
+  {
+    "id": "builtin_text-JCEmHS",
+    "formData": {
+      "text$en": "या, इन कीवर्ड्स से तुरंत ट्रेंडिंग खबरें पाएं - \"Top Stories\", \"Trending\", \"Latest\"",
+      "typing$en": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-07-09T06:35:17.808Z",
+    "modifiedOn": "2019-07-09T06:35:17.808Z"
+  }
+]

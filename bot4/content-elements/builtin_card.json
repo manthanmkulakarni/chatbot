@@ -1,0 +1,37 @@
+[
+  {
+    "id": "builtin_card-nKVUcV",
+    "formData": {
+      "title$en": "Amar Ujala ",
+      "subtitle$en": "home page",
+      "image$en": "/api/v1/bots/bot4/media/79pue5e428ugbz1437um-Amar_Ujala_cover_photo.jpg",
+      "actions$en": [
+        {
+          "title": "click here",
+          "action": "Open URL",
+          "url": "https://www.amarujala.com/tags/website?page=1"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-12T12:49:57.019Z",
+    "modifiedOn": "2019-06-12T12:49:57.019Z"
+  },
+  {
+    "id": "builtin_card-qPU3Q0",
+    "formData": {
+      "title$en": "{{user.newsheadlines1}}",
+      "subtitle$en": "{{user.newssynopsys1}}",
+      "actions$en": [
+        {
+          "title": "read",
+          "action": "Open URL",
+          "url": "{{user.newsurl}}manthan"
+        }
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2019-06-14T12:34:29.507Z",
+    "modifiedOn": "2019-06-14T12:34:29.507Z"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "start",
+  "utterances": [
+    "Start over"
+  ],
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

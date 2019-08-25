@@ -1,0 +1,59 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "getusername"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-W4DVhi"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "9ffabd50f4",
+      "name": "getusername",
+      "next": [
+        {
+          "condition": "true",
+          "node": "callDataBaseFunction"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"userName\",\"value\":\"{{event.payload.text}}\"}"
+      ]
+    },
+    {
+      "id": "43d8d06760",
+      "name": "callDataBaseFunction",
+      "next": [
+        {
+          "condition": "true",
+          "node": "endOfFlow"
+        }
+      ],
+      "onEnter": [
+        "callDataBase {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "d564a89e29",
+      "name": "endOfFlow",
+      "next": [],
+      "onEnter": [],
+      "onReceive": null
+    }
+  ]
+}

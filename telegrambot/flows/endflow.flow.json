@@ -1,0 +1,35 @@
+{
+  "version": "0.0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "e56bf54974",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-Bls1Bh"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-da34"
+        }
+      ]
+    },
+    {
+      "id": "038b73ea5a",
+      "name": "node-da34",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-xeUVuY"
+      ],
+      "onReceive": null
+    }
+  ]
+}
