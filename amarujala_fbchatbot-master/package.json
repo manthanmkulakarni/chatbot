@@ -14,7 +14,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "body-parser": "~1.15.2",
-    "cron": "^1.0.9",
+    "cron": "^1.8.2",
     "express": "~4.14.0",
     "mongodb": "^2.2.11",
     "mongoskin": "~2.1.0",
